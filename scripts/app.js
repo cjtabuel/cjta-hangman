@@ -36,27 +36,3 @@ document.querySelector('button#reset').addEventListener('click', startGame)
 
 // On page load -> fetch puzzle from API and instantiate a new instance of Hangman
 startGame()
-
-// getPuzzle('1').then((puzzle) => {
-//   console.log(puzzle)
-// }).catch((error) => {
-//   console.log(error)
-// })
-
-// getCountry('US').then((country) => {
-//   console.log(country.name)
-// }).catch((error) => {
-//   console.log(error)
-// })
-
-// getLocation().then((location) => {
-//   console.log(`You are in ${location.city}, ${location.region}, ${location.country}`)
-// }).catch((error) => {
-//   console.log(error)
-// })
-
-// getCurrentCountry().then((country) => {
-//   console.log(`Current country: ${country.name}`)
-// }).catch((error) => {
-//   console.log(error)
-// })
